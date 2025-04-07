@@ -1,0 +1,88 @@
+body {
+    background-color: #1e1e1e;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px), 
+                      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .descripcion {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .tecnologias {
+    margin-top: 10px;
+    font-size: 16px;
+    color: inherit;
+  }
+  
+  .botones {
+    margin-top: 30px;
+  }
+  
+  .botones a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    background-color: #272727;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .botones a:hover {
+    background-color: #444;
+  }
+  
+  .barra-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  .volver {
+    text-decoration: none;
+    font-size: 16px;
+    color: inherit;
+  }
+  
+  .modo-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: inherit;
+  }
+
+  .edit-form {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0;
+  }
