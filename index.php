@@ -7,12 +7,11 @@
     <title>Agustín Merli - Portafolio</title>
 </head>
 <body>
-
     <div class="contenedor-datos">
         <h1>Agustín Merli</h1>
-        <img src="img/imagen-perfil.png" class="foto-perfil">
+        <img src="img/fondo_perfil.png" class="foto-perfil">
         <h2>Sobre mí</h2>
-        <p>Tengo 18 años y estoy estudiando Programación. Experiencia en HTML, PHP, JS y CSS.</p>
+        <p>Tengo 19 años y estoy estudiando una Tecnicatura en Programación en la UTN. Experiencia en HTML, PHP, JS y CSS.</p>
 
         <div class="proyecto">
             <h2>Proyectos</h2>

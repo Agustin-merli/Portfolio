@@ -7,7 +7,6 @@
     <title>Ver Backend</title>
 </head>
 <body>
-
     <div class="barra-superior">
         <a href="detalle.php" class="volver">⬅️ Volver al proyecto</a>
     </div>
