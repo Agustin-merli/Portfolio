@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Agustín Merli | Portafolio</title>
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<ul class="nav_list desktop-nav">
+				<li class="nav__item"><a href="#inicio">Inicio</a></li>
+				<li class="nav__item"><a href="#sobre-mi">Sobre mí</a></li>
+				<li class="nav__item"><a href="#proyectos">Proyectos</a></li>
+				<li class="nav__item"><a href="#contacto">Contacto</a></li>
+			</ul>
+
+			<!-- Botón hamburguesa solo en móviles -->
+			<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<!-- Menú overlay (móvil) -->
+			<div class="menu-overlay" id="menu-overlay">
+				<button class="close-menu" id="close-menu" aria-label="Cerrar menú">
+					<i class="fas fa-times"></i>
+				</button>
+				<ul class="nav_list">
+					<li class="nav__item"><a href="#inicio">Inicio</a></li>
+					<li class="nav__item"><a href="#sobre-mi">Sobre mí</a></li>
+					<li class="nav__item"><a href="#proyectos">Proyectos</a></li>
+					<li class="nav__item"><a href="#contacto">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="hero" id="inicio">
+			<div class="hero__container">
+				<div class="foto-wrapper">
+					<img src="assets/img/foto2.jpg" alt="Foto de Agustín Merli" class="hero__img">
+				</div>
+				<div class="hero__text">
+					<h2 class="nombre">Agustín Merli</h2>
+					<p id="typewriter-text" class="typewriter"></p>
+					<div class="hero__icons">
+						<button id="btnRedes" class="btn-redes">
+							<i class="fas fa-share-alt"></i> Encontrame en redes sociales
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="sobre-mi" class="reveal">
+			<h2>Sobre mí</h2>
+			<p>Soy un desarrollador web full-stack con pasión por crear soluciones digitales modernas, accesibles y
+				funcionales. Tengo experiencia en frontend y backend, y me gusta combinar ambas para construir sitios y
+				aplicaciones que realmente sean útiles y fáciles de usar.</p>
+			<p>Actualmente estoy cursando la Tecnicatura Universitaria en Programación, que planeo finalizar a fin de
+				año. Me destaco por aprender rápido, ser responsable y tener un enfoque práctico en cada proyecto,
+				siempre buscando aportar valor y calidad en lo que hago.</p>
+			<p>Mi principal motivación es crecer profesionalmente trabajando en una empresa donde pueda desarrollar mis
+				habilidades y contribuir con proyectos reales, mientras vivo de lo que me apasiona: la programación y la
+				creación de soluciones tecnológicas.</p>
+
+			<aside id="tecnologias" class="tecnologias">
+				<h3>Tecnologías y Herramientas</h3>
+				<div class="tech-icons">
+					<div class="tech-item">
+						<i class="fab fa-php"></i>
+						<span>PHP</span>
+					</div>
+					<div class="tech-item">
+						<i class="fab fa-html5"></i>
+						<span>HTML5</span>
+					</div>
+					<div class="tech-item">
+						<i class="fab fa-css3-alt"></i>
+						<span>CSS3</span>
+					</div>
+					<div class="tech-item">
+						<i class="fab fa-js-square"></i>
+						<span>JavaScript</span>
+					</div>
+					<div class="tech-item">
+						<i class="fas fa-database"></i>
+						<span>SQL</span>
+					</div>
+					<div class="tech-item">
+						<i class="fab fa-docker"></i>
+						<span>Docker</span>
+					</div>
+				</div>
+			</aside>
+		</section>
+
+		<section id="proyectos" class="reveal">
+			<h2>Proyectos</h2>
+			<div class="proyecto-cards">
+				<div class="proyecto-card">
+					<img src="assets/img/carta-digital.png" alt="Imagen de Carta Digital">
+					<div class="proyecto-info">
+						<h3>Carta Digital - Cristopher</h3>
+						<p>Proyecto freelance con un frontend desarrollado en HTML, CSS y JavaScript. El backend
+							consiste en un panel administrativo
+							para gestionar las comidas y bebidas del restaurante, implementado en PHP e integrado con
+							HTML, CSS y JavaScript para las vistas.
+							Utiliza MySQL como base de datos. Actualmente en desarrollo, con fecha estimada de entrega
+							final: 14/07/2025.
+						</p>
+						<div class="proyecto-links">
+							<a href="#" class="ver-imagen" data-src="assets/img/carta-digital.png">
+								<i class="fas fa-expand"></i> Ver imagen completa
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="proyecto-card">
+					<img src="assets/img/blog-peliculas.png" alt="Imagen del Blog de Películas">
+					<div class="proyecto-info">
+						<h3>Blog de Películas - Pelify</h3>
+						<p>Proyecto académico avanzado, con un frontend desarrollado en HTML, CSS y JavaScript. El
+							backend consiste en un panel administrativo
+							desde el cual se gestionan todas las tablas de la base de datos (MySQL), implementado en PHP
+							e integrado con HTML, CSS y JavaScript
+							para las vistas. El proyecto sigue el patrón de diseño MVC y está codificado utilizando
+							programación orientada a objetos.
+						</p>
+						<div class="proyecto-links">
+							<a href="#" class="ver-imagen" data-src="assets/img/blog-peliculas.png">
+								<i class="fas fa-expand"></i> Ver imagen completa
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="proyecto-card">
+					<img src="assets/img/blog-noticias.png" alt="Imagen del Blog de Noticias">
+					<div class="proyecto-info">
+						<h3>Blog de Noticias - Mundo Informativo</h3>
+						<p>Proyecto académico inicial (nivel principiante), con un frontend desarrollado en HTML, CSS y
+							JavaScript.
+							El backend consiste en un panel administrativo desde el cual se gestionan las tablas de la
+							base de datos (MySQL),
+							implementado en PHP e integrado con HTML, CSS y JavaScript para las vistas.
+						</p>
+						<div class="proyecto-links">
+							<a href="#" class="ver-imagen" data-src="assets/img/blog-noticias.png">
+								<i class="fas fa-expand"></i> Ver imagen completa
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacto" class="reveal">
+			<h2>Contacto</h2>
+
+			<h3 class="subtitulo-contacto">¿Quieres contratarme? Enviame un email <i class="fas fa-envelope"></i></h3>
+
+			<form id="form-contacto" action="https://formspree.io/f/mjkrdkvw" method="POST" class="formulario-contacto">
+				<div class="campo">
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" required>
+				</div>
+				<div class="campo">
+					<label for="email">Correo electrónico</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="campo">
+					<label for="asunto">Asunto</label>
+					<input type="text" id="asunto" name="asunto" required>
+				</div>
+				<div class="campo">
+					<label for="mensaje">Mensaje</label>
+					<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+				</div>
+				<button type="submit" class="btn-enviar">Enviar mensaje</button>
+			</form>
+		</section>
+	</main>
+
+	<!-- Modal para imagen completa -->
+	<div id="modalImagen" class="modal">
+		<span class="cerrar">&times;</span>
+		<img class="modal-contenido" id="imagenAmpliada">
+	</div>
+
+	<!-- Modal de redes sociales -->
+	<div id="modalRedes" class="modal-redes oculto">
+		<div class="modal-redes-contenido">
+			<span class="cerrar-redes">&times;</span>
+			<h3>Mis redes</h3>
+			<ul class="lista-redes">
+				<li><a href="https://www.linkedin.com/in/agust%C3%ADn-merli-90ab2b35a" target="_blank"><i
+							class="fab fa-linkedin"></i>LinkedIn</a></li>
+				<li><a href="https://github.com/Agustin-merli" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+				</li>
+				<li><a href="https://instagram.com/agustin__merli" target="_blank"><i class="fab fa-instagram"></i>
+						Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footer-contenido">
+			<p>&copy; 2025 Agustín Merli. Todos los derechos reservados.</p>
+			<nav class="footer-nav">
+				<a href="#inicio">Inicio</a>
+				<a href="#sobre-mi">Sobre mí</a>
+				<a href="#proyectos">Proyectos</a>
+				<a href="#contacto">Contacto</a>
+			</nav>
+		</div>
+	</footer>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
